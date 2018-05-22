@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Filter Page</title>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <!--<link rel="stylesheet" href="/resources/demos/style.css">-->
+        <link rel="stylesheet" type="text/css" href="https://docs.handsontable.com/pro/bower_components/handsontable-pro/dist/handsontable.full.min.css">
+        <link rel="stylesheet" type="text/css" href="https://handsontable.com/static/css/main.css">
+        <script src="https://docs.handsontable.com/pro/bower_components/handsontable-pro/dist/handsontable.full.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+    <body>
+        <form action="filter" method="post">
+            <table>
+                <tr><th>Filter </th><th></th><th></th></tr>
+                <tr><td>PN </td><td><input type="text" name="part_number"></td><td></td></tr>
+                <tr><td>Part name </td><td><input type="text" name="part_name"></td><td></td></tr>
+                <tr><td>Vendor </td><td><input type="text" name="vendor"></td><td></td></tr>
+                <tr><td>Qty </td><td><input type="number" name="qty"></td><td></td></tr>
+                <tr>
+                    <td>Shipped </td>
+                    <td>after <input type="text" id="datepicker_shipped1" name="shipped_date_after"></td>
+                    <td>before <input type="text" id="datepicker_shipped2" name="shipped_date_before"></td>
+                </tr>
+                <tr>
+                    <td>Received </td>
+                    <td>after <input type="text" id="datepicker_received1" name="receive_date_after"></td>
+                    <td>before <input type="text" id="datepicker_received2" name="receive_date_before"></td>
+                </tr>
+            </table>
+
+            <input type="submit" value = "Filter">
+
+            <div id="hot"></div>
+        </form>
+
+        <script type="text/javascript" src="script.js" charset="UTF-8"></script>
+    </body>
+</html>

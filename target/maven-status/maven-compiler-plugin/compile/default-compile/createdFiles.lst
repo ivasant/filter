@@ -1,0 +1,12 @@
+com\mycompany\parts\db\Queries.class
+com\mycompany\parts\filter\SortField$2.class
+com\mycompany\parts\filter\SortField$5.class
+com\mycompany\parts\filter\SortField$4.class
+com\mycompany\parts\filter\SortField.class
+com\mycompany\parts\servlets\FilterServlet.class
+com\mycompany\parts\filter\Filter.class
+com\mycompany\parts\filter\SortField$3.class
+com\mycompany\parts\filter\SortField$6.class
+com\mycompany\parts\db\DBConnection.class
+com\mycompany\parts\db\DBProvider.class
+com\mycompany\parts\filter\SortField$1.class
